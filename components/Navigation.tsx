@@ -129,7 +129,7 @@ export default function Navigation({ navGuild, ...rest }) {
       <div style={{ display: "flex", alignItems: "center" }}>
         <Avatar src={session?.user?.image} />
         <p style={{ marginLeft: 10 }}>{session?.user?.email}</p>
-        <Button onClick={() => signOut()}>SignOut</Button>
+        {/* <Button onClick={() => signOut()}>SignOut</Button> */}
       </div>
 
       <Tooltip

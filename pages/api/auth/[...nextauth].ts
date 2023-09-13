@@ -8,18 +8,5 @@ export default NextAuth({
       clientSecret:"FzZgpjG6JyZUTZ6A4A2lhBaOk55a0oYi"
     })
   ],
-  callbacks: {
-    async signIn(user, account, profile) {
-      if (account.provider === 'discord') {
-        user.id = profile.id;
-      }
-      return true;
-    },
-
-  },
-  pages: {
-    //  signIn: '/auth/signin',
-    newUser:"/"
-  }
 
 })
