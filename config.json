@@ -1,0 +1,5 @@
+{
+    "clientId": "969263464050741368",
+    "clientSecret": "sckL2y-tYtjJXXg5Xwgs3FhbqUfq4Yfw",
+    "mongoUri": "mongodb+srv://anautonell:torremirona21@cluster0.hs2ej.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+}
