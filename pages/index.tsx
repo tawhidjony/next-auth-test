@@ -123,6 +123,8 @@ const FeatureBox = ({ title, isRight, image, children, icon, ...rest }) => {
 };
 
 export default function Index({}) {
+  console.log(process.env.DISCORD_CLIENT_ID);
+
   return (
     <BaseLayout pageTitle={"Home"}>
       <Flex justifyContent="space-around" alignItems={"center"} m={20}>
