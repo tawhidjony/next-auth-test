@@ -26,7 +26,7 @@ export default function DashboardIndex({ session }) {
             }}>{session.user.name}, select a server!</Text>
 
             <Flex wrap="wrap" mt="3vw" p={10} justifyContent="center">
-                {session.guilds.map((guild, index) => (
+                {/* {session.guilds.map((guild, index) => (
                     <ScaleFade key={`guild-${guild.id}`} initialScale={.4} in={true} delay={1 + index / 10}>
                         <Tooltip label={guild.name} bg="black" fontWeight="semibold" hasArrow>
                             <Avatar cursor="pointer" className="animate" src={GetGuildIcon(guild)} name={guild.name} boxSize="80px" m={3} _hover={{
@@ -34,7 +34,7 @@ export default function DashboardIndex({ session }) {
                             }} onClick={() => router.push(`/dashboard/${guild.id}`)} />
                         </Tooltip>
                     </ScaleFade>
-                ))}
+                ))} */}
             </Flex>
         </BaseLayout>
     )
